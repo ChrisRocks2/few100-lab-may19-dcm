@@ -1,3 +1,43 @@
-h1 {
-    color:red;
+*{
+    margin-left: 10px;
+}
+.inputBillDiv {
+    min-height: 40px;
+}
+.inputBill {
+    height: 20px;
+}
+.headers {
+    color:black;
+    font: bold;
+}
+.inputBill {
+    height: 30px;
+    width: 370px;
+}
+#dollar{
+    background: lightgray;
+    width: 20px;
+    float: left;
+    text-align: center;
+}
+#bill {
+    margin-left: 0;
+}
+.buttons {
+    margin-top: 16px;
+    height: 30px;
+}
+#tipAmount {
+    margin-top: 10px;
+}
+#tipAmount {
+    border: none;
+}
+.textBoxesDiv{
+    margin-top: 20px;
+}
+.textBoxes {
+    height: 40px;
+    width: 400px;
 }

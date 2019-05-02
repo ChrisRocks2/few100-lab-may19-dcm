@@ -1,10 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Webpack Showcase</title>
 </head>
+
 <body>
-    <h1>Welcome to Class.</h1>
+    <h1 class="headers">Tip Calculator</h1>
+    <div class="inputBillDiv">
+        <input id="dollar"
+               class="inputBill"
+               type="text"
+               name="dollar"
+               value="$"
+               readonly />
+        <input id="bill"
+               class="inputBill"
+               type="number"
+               name="bill" />
+    </div>
+    <div class=buttonsDiv>
+        <input id=b10
+               class="buttons"
+               type="button"
+               value="10%" />
+        <input id=b15
+               class="buttons"
+               type="button"
+               value="15%" />
+        <input id=b20
+               class="buttons"
+               type="button"
+               value="20%"
+               disabled />
+    </div>
+    <div class=tippingAmountDiv>
+        <input id="tipAmount"
+               type=text
+               value="You are tipping 20%"
+               readonly />
+    </div>
+    <div class="textBoxesDiv">
+        <input class="textBoxes"
+               id="billAmount"
+               type=text
+               value="Bill Amount: $"
+               readonly /></br>
+        <input class="textBoxes"
+               id="tipPercent"
+               type=text
+               value="Tip Percentage: 20%"
+               readonly /></br>
+        <input class="textBoxes"
+               id="tipAmt"
+               type=text
+               value="Amount of tip: $"
+               readonly /></br>
+        <input class="textBoxes"
+               id="total"
+               type=text
+               value="Total to be Paid: $"
+               readonly />
+    </div>
 </body>
+
 </html>
