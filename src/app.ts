@@ -46,7 +46,7 @@ function handleClick() {
     //did they win
     //console.log("you click on ", this);
     const clickedButton = this;
-    var yourTip = "You are tipping "
+    let yourTip = "You are tipping "
     switch (clickedButton.id) {
         case "b10":
             tip = .10;
